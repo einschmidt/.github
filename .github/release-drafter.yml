@@ -1,7 +1,7 @@
 ---
 name-template: "v$RESOLVED_VERSION"
 tag-template: "v$RESOLVED_VERSION"
-change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
+change-template: "- $TITLE @$AUTHOR ([#$NUMBER]($URL))"
 sort-direction: ascending
 
 categories:
@@ -26,6 +26,9 @@ categories:
   - title: "📚 Documentation"
     labels:
       - "documentation"
+  - title: "🌎 Translations"
+    labels:
+      - "translations"
   - title: "⬆️ Dependency updates"
     labels:
       - "dependencies"
